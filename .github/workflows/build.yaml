@@ -4,11 +4,11 @@ name: "Main Build Process"
 # every commit in a pull request, any published release.
 on:
   push:
-    branches: ["main"]
+    #branches: ["main"]
   pull_request:
-    branches: ["main"]
+    #branches: ["main"]
   release:
-    types: [published]
+    #types: [published]
 
 env:
   REGISTRY: ghcr.io
